@@ -27,7 +27,9 @@ class FitView : public QGraphicsView
 public:
     FitView(QGraphicsScene *scene) : QGraphicsView(scene)
     {
-        setSceneRect(Config.Rect);
+        QRectF t; t.setRect(-300,-200, 600 ,400);
+        
+        setSceneRect(Config.Rect);// t);
         setRenderHints(QPainter::TextAntialiasing | QPainter::Antialiasing);
     }
 
@@ -48,13 +50,15 @@ public:
             main_window->setBackgroundBrush(false);
             return;
         } else if (scene()->inherits("StartScene")) {
-            StartScene *start_scene = qobject_cast<StartScene *>(scene());
-            QRectF newSceneRect(-event->size().width() / 2, -event->size().height() / 2,
-                event->size().width(), event->size().height());
-            start_scene->setSceneRect(newSceneRect);
-            setSceneRect(start_scene->sceneRect());
-            if (newSceneRect != start_scene->sceneRect())
-                fitInView(start_scene->sceneRect(), Qt::KeepAspectRatio);
+			StartScene* start_scene = qobject_cast<StartScene*>(scene());
+			QRectF newSceneRect(-event->size().width() / 2, -event->size().height() / 2,
+				event->size().width(), event->size().height());
+			//newSceneRect = start_scene->sceneRect();
+			start_scene->setSceneRect(newSceneRect);
+			setSceneRect(start_scene->sceneRect());
+			if (newSceneRect != start_scene->sceneRect())
+				fitInView(start_scene->sceneRect(), Qt::KeepAspectRatio);
+            int a = 3;
         }
         if (main_window)
             main_window->setBackgroundBrush(true);
@@ -85,12 +89,12 @@ MainWindow::MainWindow(QWidget *parent)
 
     QList<QAction *> actions;
     actions << ui->actionStart_Game
-        << ui->actionStart_Server
-        << ui->actionReplay
-        << ui->actionConfigure
-        << ui->actionGeneral_Overview
-        << ui->actionCard_Overview
-        << ui->actionScenario_Overview
+		<< ui->actionStart_Server
+		<< ui->actionReplay
+		<< ui->actionConfigure
+		<< ui->actionGeneral_Overview
+		<< ui->actionCard_Overview
+		<< ui->actionScenario_Overview
         << ui->actionAbout;
 
     foreach(QAction *action, actions)

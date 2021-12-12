@@ -1,22 +1,25 @@
 #include "audio.h"
 #include "settings.h"
-
-class Sound;
+#include "fmod/fmod.hpp"
+//#include "common.h"
+#include "fmod/fmod_common.h"
+//using namespace FMOD;
+class WSound;
 
 static FMOD_SYSTEM *System;
-static QCache<QString, Sound> SoundCache;
+static QCache<QString, WSound> SoundCache;
 static FMOD_SOUND *BGM;
 static FMOD_CHANNEL *BGMChannel;
 
-class Sound
+class WSound
 {
 public:
-    Sound(const QString &filename) : sound(NULL), channel(NULL)
+    WSound(const QString &filename) : sound(NULL), channel(NULL)
     {
         FMOD_System_CreateSound(System, filename.toLatin1(), FMOD_DEFAULT, NULL, &sound);
     }
 
-    ~Sound()
+    ~WSound()
     {
         if (sound) FMOD_Sound_Release(sound);
     }
@@ -24,7 +27,8 @@ public:
     void play()
     {
         if (sound) {
-            FMOD_RESULT result = FMOD_System_PlaySound(System, FMOD_CHANNEL_FREE, sound, false, &channel);
+            //FMOD_RESULT result = System->playSound(sound, 0, false, &channel);
+            FMOD_RESULT result = FMOD_System_PlaySound(System, sound, 0,false, &channel);
 
             if (result == FMOD_OK) {
                 FMOD_Channel_SetVolume(channel, Config.EffectVolume);
@@ -49,7 +53,12 @@ private:
 
 void Audio::init()
 {
+    //FMOD_RESULT result = FMOD::System_Create(&System);
     FMOD_RESULT result = FMOD_System_Create(&System);
+	//void* extradriverdata = 0;
+
+	//Common_Init(&extradriverdata);
+    //if (result == FMOD_OK) result = system->init(32, FMOD_INIT_NORMAL, extradriverdata); //FMOD_System_Init(System, 100, 0, NULL);
     if (result == FMOD_OK) FMOD_System_Init(System, 100, 0, NULL);
 }
 
@@ -65,9 +74,9 @@ void Audio::quit()
 
 void Audio::play(const QString &filename, bool superpose)
 {
-    Sound *sound = SoundCache[filename];
+    WSound *sound = SoundCache[filename];
     if (sound == NULL) {
-        sound = new Sound(filename);
+        sound = new WSound(filename);
         SoundCache.insert(filename, sound);
     } else if (!superpose && sound->isPlaying()) {
         return;
@@ -81,7 +90,7 @@ void Audio::stop()
     if (System == NULL) return;
 
     int n;
-    FMOD_System_GetChannelsPlaying(System, &n);
+    FMOD_System_GetChannelsPlaying(System, &n,0);
 
     QList<FMOD_CHANNEL *> channels;
     for (int i = 0; i < n; i++) {
@@ -104,7 +113,7 @@ void Audio::playBGM(const QString &filename)
 
     if (result == FMOD_OK) {
         FMOD_Sound_SetLoopCount(BGM, -1);
-        FMOD_System_PlaySound(System, FMOD_CHANNEL_FREE, BGM, false, &BGMChannel);
+        FMOD_System_PlaySound(System, BGM,NULL, false, &BGMChannel);
 
         FMOD_System_Update(System);
     }

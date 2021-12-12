@@ -57,7 +57,7 @@ void CardOverview::loadFromAll()
             ui->malePlayButton->hide();
             ui->femalePlayButton->hide();
         } else {
-            ui->playAudioEffectButton->hide();
+            ui->playAudioEffectButton->show();// hide();
             ui->malePlayButton->show();
             ui->femalePlayButton->show();
         }
@@ -134,7 +134,7 @@ void CardOverview::on_tableWidget_itemSelectionChanged()
         ui->malePlayButton->hide();
         ui->femalePlayButton->hide();
     } else {
-        ui->playAudioEffectButton->hide();
+        ui->playAudioEffectButton->show();// hide();
         ui->malePlayButton->show();
         ui->femalePlayButton->show();
     }

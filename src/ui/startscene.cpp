@@ -8,18 +8,18 @@
 
 StartScene::StartScene()
 {
-    // game logo
+     //game logo
     logo = new QSanSelectableItem("image/logo/logo.png", true);
     logo->moveBy(0, -Config.Rect.height() / 4.8);
     addItem(logo);
 
     //the website URL
-    QFont website_font(Config.SmallFont);
-    website_font.setStyle(QFont::StyleItalic);
-    QGraphicsSimpleTextItem *website_text = addSimpleText("http://mogara.org", website_font);
-    website_text->setBrush(Qt::white);
-    website_text->setPos(Config.Rect.width() / 2 - website_text->boundingRect().width(),
-        Config.Rect.height() / 2 - website_text->boundingRect().height());
+    //QFont website_font(Config.SmallFont);
+    //website_font.setStyle(QFont::StyleItalic);
+    //QGraphicsSimpleTextItem *website_text = addSimpleText("http://mogara.org", website_font);
+    //website_text->setBrush(Qt::white);
+    //website_text->setPos(Config.Rect.width() / 2 - website_text->boundingRect().width(),
+    //    Config.Rect.height() / 2 - website_text->boundingRect().height());
     server_log = NULL;
 }
 
@@ -45,7 +45,8 @@ void StartScene::addButton(QAction *action)
     QRectF rect = button->boundingRect();
     int n = buttons.length();
     if (n < 4)
-        button->setPos(-rect.width() - 4, (n - 0.5) * (rect.height() * 1.2));
+        //button->setPos(-rect.width() - 4, (n - 0.5) * (rect.height() * 1.2));
+        button->setPos(-rect.width() - 4, (n - 0.5) * (rect.height() * 1.0));
     else
         button->setPos(4, (n - 4.5) * (rect.height() * 1.2));
 

@@ -1,0 +1,2154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\src\core\audio">
+      <UniqueIdentifier>{9347f6b7-2b0b-4824-b2c4-454371ef7656}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad\client" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad\client\windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad\client\windows\crash_generation" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\breakpad\client\windows\crash_generation\client_info.cc">
+      <Filter>Source Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\audio.cpp">
+      <Filter>Source Files\src\core\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\common.cpp">
+      <Filter>Source Files\src\core\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\common_platform.cpp">
+      <Filter>Source Files\src\core\audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\breakpad\client\windows\crash_generation\crash_generation_client.cc">
+      <Filter>Source Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\breakpad\client\windows\crash_generation\crash_generation_server.cc">
+      <Filter>Source Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\breakpad\client\windows\crash_generation\minidump_generator.cc">
+      <Filter>Source Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad\client\windows\handler" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\breakpad\client\windows\handler\exception_handler.cc">
+      <Filter>Source Files\src\breakpad\client\windows\handler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad\common" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\breakpad\common\windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\breakpad\common\windows\guid_string.cc">
+      <Filter>Source Files\src\breakpad\common\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\client" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client\aux-skills.cpp">
+      <Filter>Source Files\src\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client\client.cpp">
+      <Filter>Source Files\src\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client\clientplayer.cpp">
+      <Filter>Source Files\src\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client\clientstruct.cpp">
+      <Filter>Source Files\src\client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\banpair.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\card.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\engine.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\general.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\json.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\lua-wrapper.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\player.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\protocol.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\record-analysis.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\room-state.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\settings.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\skill.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\structs.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\util.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\wrapped-card.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\dialog" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\banipdialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\cardeditor.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\cardoverview.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\choosegeneraldialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\configdialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\connectiondialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\customassigndialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\dialogslsettings.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\distanceviewdialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\generaloverview.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\mainwindow.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\mainwindowserverlist.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\playercarddialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\roleassigndialog.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dialog\scenario-overview.cpp">
+      <Filter>Source Files\src\dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lapi.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lauxlib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lbaselib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lbitlib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lcode.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lcorolib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lctype.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ldblib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ldebug.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ldo.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ldump.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lfunc.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lgc.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\linit.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\liolib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\llex.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lmathlib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lmem.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\loadlib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lobject.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lopcodes.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\loslib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lparser.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lstate.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lstring.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lstrlib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ltable.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ltablib.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\ltm.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lundump.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lvm.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lua\lzio.c">
+      <Filter>Source Files\src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\package" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\assassins.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\bgm.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\boss.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\exppattern.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\fire.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\god.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\h-formation.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\h-momentum.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\hegemony.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\jiange-defense.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\joy.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\jsp.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\ling.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\maneuvering.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\mountain.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\nostalgia.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\ol.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\package.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\sp.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\special1v1.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\special3v3.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\standard-cards.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\standard-generals.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\standard-skillcards.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\standard.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\thicket.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\tw.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\wind.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\wisdom.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\yitian.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\yjcm.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\yjcm2012.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\yjcm2013.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\yjcm2014.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\package\yjcm2015.cpp">
+      <Filter>Source Files\src\package</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\scenario" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\boss-mode-scenario.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\couple-scenario.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\fancheng-scenario.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\guandu-scenario.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\miniscenarios.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\scenario.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\scenerule.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scenario\zombie-scenario.cpp">
+      <Filter>Source Files\src\scenario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\server" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\ai.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\gamerule.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\generalselector.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\qtupnpportmapping.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\room.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\roomthread.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\roomthread1v1.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\roomthread3v3.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\roomthreadxmode.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\server.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\server\serverplayer.cpp">
+      <Filter>Source Files\src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\bubblechatbox.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\button.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\cardcontainer.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\carditem.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\chatwidget.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\clientlogbox.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\dashboard.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\generic-cardcontainer-ui.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\indicatoritem.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\magatamas-item.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\photo.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\pixmapanimation.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\qsan-selectable-item.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\qsanbutton.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\rolecombobox.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\roomscene.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\skin-bank.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\sprite.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\startscene.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\table-pile.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\timed-progressbar.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\ui-utils.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ui\window.cpp">
+      <Filter>Source Files\src\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\src\util" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\util\detector.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\util\nativesocket.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\util\recorder.cpp">
+      <Filter>Source Files\src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\swig" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="swig\sanguosha_wrap.cxx">
+      <Filter>Source Files\swig</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad\client" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad\client\windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad\client\windows\crash_generation" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\breakpad\client\windows\crash_generation\client_info.h">
+      <Filter>Header Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\audio.h">
+      <Filter>Source Files\src\core\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\banpair.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\compiler-specific.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\defines.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\json.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\protocol.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\room-state.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\structs.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\util.h">
+      <Filter>Source Files\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\common.h">
+      <Filter>Source Files\src\core\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\common_platform.h">
+      <Filter>Source Files\src\core\audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\breakpad\client\windows\crash_generation\crash_generation_client.h">
+      <Filter>Header Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\breakpad\client\windows\crash_generation\crash_generation_server.h">
+      <Filter>Header Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\breakpad\client\windows\crash_generation\minidump_generator.h">
+      <Filter>Header Files\src\breakpad\client\windows\crash_generation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad\client\windows\handler" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\breakpad\client\windows\handler\exception_handler.h">
+      <Filter>Header Files\src\breakpad\client\windows\handler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad\common" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\breakpad\common\windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\breakpad\common\windows\guid_string.h">
+      <Filter>Header Files\src\breakpad\common\windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\client" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\client\aux-skills.h">
+      <Filter>Header Files\src\client</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\card.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\engine.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\general.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\lua-wrapper.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\player.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\record-analysis.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\settings.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\skill.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+    <QtMoc Include="src\core\wrapped-card.h">
+      <Filter>Source Files\src\core</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\client\client.h">
+      <Filter>Header Files\src\client</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\client\clientplayer.h">
+      <Filter>Header Files\src\client</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\client\clientstruct.h">
+      <Filter>Header Files\src\client</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\dialog" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\banipdialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\cardeditor.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\cardoverview.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\choosegeneraldialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\configdialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\connectiondialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\customassigndialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\dialogslsettings.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\distanceviewdialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\generaloverview.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\mainwindow.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\mainwindowserverlist.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\playercarddialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\roleassigndialog.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\dialog\scenario-overview.h">
+      <Filter>Header Files\src\dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lapi.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lauxlib.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lcode.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lctype.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\ldebug.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\ldo.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lfunc.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lgc.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\llex.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\llimits.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lmem.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lobject.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lopcodes.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lparser.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lstate.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lstring.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\ltable.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\ltm.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lua.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lua.hpp">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\luaconf.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lualib.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lundump.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lvm.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lua\lzio.h">
+      <Filter>Header Files\src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\package" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\assassins.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\bgm.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\boss.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\package\exppattern.h">
+      <Filter>Header Files\src\package</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\fire.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\god.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\h-formation.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\h-momentum.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\hegemony.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\jiange-defense.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\joy.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\jsp.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\ling.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\maneuvering.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\mountain.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\nostalgia.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\ol.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\package.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\sp.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\special1v1.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\special3v3.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\standard-equips.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\standard-skillcards.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\standard.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\thicket.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\tw.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\wind.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\wisdom.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\yitian.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\yjcm.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\yjcm2012.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\yjcm2013.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\yjcm2014.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\package\yjcm2015.h">
+      <Filter>Header Files\src\package</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\scenario" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\boss-mode-scenario.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\couple-scenario.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\fancheng-scenario.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\guandu-scenario.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\miniscenarios.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\scenario.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\scenario\scenerule.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\scenario\zombie-scenario.h">
+      <Filter>Header Files\src\scenario</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\server" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\ai.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\gamerule.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\generalselector.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\qtupnpportmapping.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\room.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\roomthread.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\roomthread1v1.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\roomthread3v3.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\roomthreadxmode.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\server.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\server\serverplayer.h">
+      <Filter>Header Files\src\server</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\bubblechatbox.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\button.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\cardcontainer.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\carditem.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\chatwidget.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\clientlogbox.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\dashboard.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\generic-cardcontainer-ui.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\indicatoritem.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\magatamas-item.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\photo.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\pixmapanimation.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\qsan-selectable-item.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\qsanbutton.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\rolecombobox.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\roomscene.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ui\skin-bank.h">
+      <Filter>Header Files\src\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\sprite.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\startscene.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\table-pile.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\timed-progressbar.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ui\ui-utils.h">
+      <Filter>Header Files\src\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ui\window.h">
+      <Filter>Header Files\src\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\src\util" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\util\detector.h">
+      <Filter>Header Files\src\util</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\util\nativesocket.h">
+      <Filter>Header Files\src\util</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\util\recorder.h">
+      <Filter>Header Files\src\util</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\util\socket.h">
+      <Filter>Header Files\src\util</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\pch.h">
+      <Filter>Header Files\src</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated Files\debug" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files\debug</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated Files\release" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files\release</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated Files\src" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pch.h.cpp">
+      <Filter>Generated Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Translation Files\builds" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="builds\sanguosha.ts">
+      <Filter>Translation Files\builds</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Form Files\src" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Form Files\src\dialog" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\cardoverview.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\configdialog.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\connectiondialog.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\dialogslsettings.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\generaloverview.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\mainwindow.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\dialog\mainwindowserverlist.ui">
+      <Filter>Form Files\src\dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\icon.rc" />
+  </ItemGroup>
+</Project>

@@ -11,6 +11,8 @@
 #if defined(WIN32) && defined(VS2010)
 #include "breakpad/client/windows/handler/exception_handler.h"
 
+#pragma comment(lib,"legacy_stdio_definitions.lib")
+
 using namespace google_breakpad;
 
 static bool callback(const wchar_t *dump_path, const wchar_t *id,

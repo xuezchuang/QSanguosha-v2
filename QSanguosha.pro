@@ -3,7 +3,7 @@
 # -------------------------------------------------
 TARGET = QSanguosha
 QT += network widgets
-!winrt: QT += declarative
+#!winrt: QT += declarative
 TEMPLATE = app
 
 CONFIG += lua

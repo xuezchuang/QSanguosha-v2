@@ -359,7 +359,7 @@ Engine::~Engine()
     lua_close(lua);
     delete m_customScene;
 #ifdef AUDIO_SUPPORT
-    Audio::quit();
+    //Audio::quit();
 #endif
 }
 
@@ -1350,6 +1350,7 @@ void Engine::playSystemAudioEffect(const QString &name, bool superpose) const
     playAudioEffect(QString("audio/system/%1.ogg").arg(name), superpose);
 }
 
+
 void Engine::playAudioEffect(const QString &filename, bool superpose) const
 {
 #ifdef AUDIO_SUPPORT
@@ -1357,8 +1358,9 @@ void Engine::playAudioEffect(const QString &filename, bool superpose) const
         return;
     if (filename.isNull())
         return;
-
+    //QSoundEffect effect;
     Audio::play(filename, superpose);
+    //qaudioo
 #endif
 }
 
