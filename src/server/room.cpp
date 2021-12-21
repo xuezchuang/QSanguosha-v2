@@ -2173,9 +2173,11 @@ void Room::prepareForStart()
             else
                 notifyProperty(player, player, "role");
         }
-    } else if (mode == "06_3v3" || mode == "06_XMode" || mode == "02_1v1") {
+    } 
+    else if (mode == "06_3v3" || mode == "06_XMode" || mode == "02_1v1") {
         return;
-    } else if (!Config.EnableHegemony && Config.EnableCheat && Config.value("FreeAssign", false).toBool()) {
+    }
+    else if (!Config.EnableHegemony && Config.EnableCheat && Config.value("FreeAssign", false).toBool()) {
         ServerPlayer *owner = getOwner();
         notifyMoveFocus(owner, S_COMMAND_CHOOSE_ROLE);
         if (owner && owner->isOnline()) {
@@ -2244,7 +2246,8 @@ void Room::prepareForStart()
                 qShuffle(m_players);
             assignRoles();
         }
-    } else {
+    } 
+    else {
         if (Config.RandomSeat)
             qShuffle(m_players);
         assignRoles();
@@ -2860,7 +2863,8 @@ void Room::run()
             doBroadcastNotify(S_COMMAND_START_IN_X_SECONDS, i);
             sleep(1);
         }
-    } else
+    }
+    else
         doBroadcastNotify(S_COMMAND_START_IN_X_SECONDS, QVariant(0));
 
     if (scenario && !scenario->generalSelection())
@@ -2871,19 +2875,22 @@ void Room::run()
 
         connect(thread_3v3, SIGNAL(finished()), this, SLOT(startGame()));
         connect(thread_3v3, SIGNAL(finished()), thread_3v3, SLOT(deleteLater()));
-    } else if (mode == "06_XMode") {
+    } 
+    else if (mode == "06_XMode") {
         thread_xmode = new RoomThreadXMode(this);
         thread_xmode->start();
 
         connect(thread_xmode, SIGNAL(finished()), this, SLOT(startGame()));
         connect(thread_xmode, SIGNAL(finished()), thread_xmode, SLOT(deleteLater()));
-    } else if (mode == "02_1v1") {
+    }
+    else if (mode == "02_1v1") {
         thread_1v1 = new RoomThread1v1(this);
         thread_1v1->start();
 
         connect(thread_1v1, SIGNAL(finished()), this, SLOT(startGame()));
         connect(thread_1v1, SIGNAL(finished()), thread_1v1, SLOT(deleteLater()));
-    } else if (mode == "04_1v3") {
+    } 
+    else if (mode == "04_1v3") {
         ServerPlayer *lord = m_players.first();
         setPlayerProperty(lord, "general", "shenlvbu1");
 
@@ -2921,7 +2928,9 @@ void Room::run()
         }
 
         startGame();
-    } else if (mode == "04_boss") {
+    } 
+    else if (mode == "04_boss")
+    {
         ServerPlayer *lord = m_players.first();
         QStringList boss_lv_1 = Config.BossGenerals.first().split("+");
         if (Config.value("OptionalBoss", false).toBool()) {
@@ -2936,7 +2945,8 @@ void Room::run()
         players.removeOne(lord);
         chooseGenerals(players);
         startGame();
-    } else if (mode == "08_defense") {
+    } 
+    else if (mode == "08_defense") {
         QStringList type_list;
         type_list << "machine" << "general" << "soul" << "general"
             << "general" << "soul" << "general" << "machine";
@@ -2944,7 +2954,8 @@ void Room::run()
             setPlayerProperty(m_players.at(i), "jiange_defense_type", type_list.at(i));
         chooseGeneralsOfJianGeDefenseMode();
         startGame();
-    } else {
+    } 
+    else {
         chooseGenerals();
         startGame();
     }
@@ -3818,7 +3829,7 @@ void Room::startGame()
     thread = new RoomThread(this);
     if (mode != "02_1v1" && mode != "06_3v3" && mode != "06_XMode")
         _m_roomState.reset();
-    connect(thread, SIGNAL(started()), this, SIGNAL(game_start()));
+    //connect(thread, SIGNAL(started()), this, SIGNAL(game_start()));
 
     if (!_virtual) thread->start();
 }
