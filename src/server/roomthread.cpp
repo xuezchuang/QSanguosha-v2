@@ -596,14 +596,17 @@ void RoomThread::run()
         trigger(GameStart, (Room *)room, NULL);
         if (room->getMode() == "06_3v3") {
             run3v3(first, second, game_rule, first.first());
-        } else if (room->getMode() == "04_1v3") {
+        } 
+        else if (room->getMode() == "04_1v3") {
             ServerPlayer *shenlvbu = room->getLord();
             QList<ServerPlayer *> league = room->getPlayers();
             league.removeOne(shenlvbu);
 
             room->setCurrent(league.first());
             actionHulaoPass(shenlvbu, league, game_rule, 1);
-        } else {
+        } 
+        else 
+        {
             if (room->getMode() == "02_1v1") {
                 ServerPlayer *first = room->getPlayers().first();
                 if (first->getRole() != "renegade")
