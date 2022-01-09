@@ -709,7 +709,7 @@ bool Room::doRequest(ServerPlayer *player, QSanProtocol::CommandType command, co
 bool Room::doBroadcastRequest(QList<ServerPlayer *> &players, QSanProtocol::CommandType command)
 {
     time_t timeOut = ServerInfo.getCommandTimeout(command, S_SERVER_INSTANCE);
-    return doBroadcastRequest(players, command, timeOut);
+    return doBroadcastRequest(players, command, timeOut*10);
 }
 
 bool Room::doBroadcastRequest(QList<ServerPlayer *> &players, QSanProtocol::CommandType command, time_t timeOut)
